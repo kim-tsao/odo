@@ -1,6 +1,6 @@
 module github.com/redhat-developer/odo
 
-go 1.17
+go 1.21
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.5
@@ -11,7 +11,7 @@ require (
 	github.com/devfile/library v1.2.1-0.20220602130922-85a4805bd59c
 	github.com/devfile/registry-support/index/generator v0.0.0-20220222194908-7a90a4214f3e
 	github.com/devfile/registry-support/registry-library v0.0.0-20220504150710-21de53798172
-	github.com/fatih/color v1.13.0
+	github.com/fatih/color v1.15.0
 	github.com/frapposelli/wwhrd v0.4.0
 	github.com/fsnotify/fsnotify v1.5.1
 	github.com/ghodss/yaml v1.0.0
@@ -23,8 +23,8 @@ require (
 	github.com/kr/pty v1.1.5
 	github.com/kubernetes-sigs/service-catalog v0.3.1
 	github.com/kylelemons/godebug v1.1.0
-	github.com/mattn/go-colorable v0.1.9
-	github.com/olekukonko/tablewriter v0.0.4
+	github.com/mattn/go-colorable v0.1.13
+	github.com/olekukonko/tablewriter v1.0.2
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/ginkgo/v2 v2.1.4
 	github.com/onsi/gomega v1.19.0
@@ -39,12 +39,14 @@ require (
 	github.com/redhat-developer/service-binding-operator v1.0.1-0.20211222115357-5b7bbba3bfb3
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06
 	github.com/securego/gosec/v2 v2.12.0
+	github.com/segmentio/backo-go v1.0.1-0.20200129164019-23eae7c10bd3
 	github.com/spf13/afero v1.6.0
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
 	github.com/tidwall/gjson v1.14.1
 	github.com/zalando/go-keyring v0.2.1
-	golang.org/x/sys v0.0.0-20220422013727-9388b58f7150
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/sys v0.12.0
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
 	gopkg.in/AlecAivazis/survey.v1 v1.8.8
 	gopkg.in/segmentio/analytics-go.v3 v3.0.0-00010101000000-000000000000
@@ -131,8 +133,8 @@ require (
 	github.com/klauspost/compress v1.11.13 // indirect
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
-	github.com/mattn/go-isatty v0.0.14 // indirect
-	github.com/mattn/go-runewidth v0.0.13 // indirect
+	github.com/mattn/go-isatty v0.0.19 // indirect
+	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
@@ -145,6 +147,8 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00 // indirect
 	github.com/nbutton23/zxcvbn-go v0.0.0-20210217022336-fa2cb2858354 // indirect
+	github.com/olekukonko/errors v0.0.0-20250405072817-4e6d85265da6 // indirect
+	github.com/olekukonko/ll v0.0.6-0.20250511102614-9564773e9d27 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.2-0.20190823105129-775207bd45b6 // indirect
 	github.com/openshift/library-go v0.0.0-20220210170159-18f172cff934 // indirect
@@ -157,7 +161,6 @@ require (
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/russross/blackfriday v1.5.2 // indirect
-	github.com/segmentio/backo-go v1.0.1-0.20200129164019-23eae7c10bd3 // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/stretchr/testify v1.7.4 // indirect
@@ -175,7 +178,6 @@ require (
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
 	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	golang.org/x/tools v0.1.11 // indirect
